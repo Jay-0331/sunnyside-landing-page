@@ -30,7 +30,7 @@ const Main = () => {
             <a href="#ratings" className="font-fraunces text-base relative">LEARN MORE</a>
           </div>
         </div>
-        <div className="grid bg-graphicdesignmobile md:bg-graphicdesigndesktop aspect-[5/8] md:aspect-[6/5] bg-cover bg-no-repeat bg-center place-self-stretch">
+        <div id='service' className="grid bg-graphicdesignmobile md:bg-graphicdesigndesktop aspect-[5/8] md:aspect-[6/5] bg-cover bg-no-repeat bg-center place-self-stretch">
           <div className='text-center mx-8 mb-12 xl:mx-28 md:mx-6 place-self-end'>
             <h2 className="font-fraunces font-black text-primary-dark-desaturated-cyan text-4xl md:text-headingsmall">Graphic design</h2>
             <p className="font-barlow pt-4 xl:px-12 md:px-0 tracking-tighter text-primary-dark-desaturated-cyan text-paragraph">

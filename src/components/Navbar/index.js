@@ -20,9 +20,9 @@ const Navbar = () => {
             <div className="px-8 mx-auto pt-8 pb-2 flex justify-between">
                 <h2 className="font-poppin text-3xl text-neutral-white h-[60px] flex items-center" >sunnyside</h2>
                 <div className="hidden md:flex space-x-10 items-center text-lg text-neutral-white">
-                    <a href='/' className="font-barlow text-opacity-70 hover:text-black transition duration-500">About</a>
-                    <a href='/' className="font-barlow text-opacity-70 hover:text-black transition duration-500" >Services</a> 
-                    <a href='/' className="font-barlow text-opacity-70 hover:text-black transition duration-500" >Projects</a>
+                    <a href='#brandinfo' className="font-barlow text-opacity-70 hover:text-black transition duration-500">About</a>
+                    <a href='#service' className="font-barlow text-opacity-70 hover:text-black transition duration-500" >Services</a> 
+                    <a href='#gallary' className="font-barlow text-opacity-70 hover:text-black transition duration-500" >Projects</a>
                     <button className="font-fraunces bg-white text-black py-4 px-8 rounded-full hover:bg-opacity-30 hover:text-white transition-all duration-500" aria-label='contact button'>CONTACT</button>
                 </div>
                 <div className="md:hidden flex items-center">
