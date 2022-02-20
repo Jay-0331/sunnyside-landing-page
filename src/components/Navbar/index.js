@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <nav className="absolute w-full z-20 min-w-[375px]">
             <div className="px-8 mx-auto pt-8 pb-2 flex justify-between">
-                <h1 className="font-poppin text-3xl text-neutral-white h-[60px] flex items-center" >sunnyside</h1>
+                <h2 className="font-poppin text-3xl text-neutral-white h-[60px] flex items-center" >sunnyside</h2>
                 <div className="hidden md:flex space-x-10 items-center text-lg text-neutral-white">
                     <a href='/' className="font-barlow text-opacity-70 hover:text-black transition duration-500">About</a>
                     <a href='/' className="font-barlow text-opacity-70 hover:text-black transition duration-500" >Services</a> 

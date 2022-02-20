@@ -6,7 +6,7 @@ import thomas from '../../images/image-thomas.jpg'
 const Main = () => {
   return (
     <main className="h-auto min-w-[375px]">
-      <section id='brandinfo' className='grid grid-flow-row auto-rows-max md:grid-cols-2 h-auto w-auto bg-primary-off-white'>
+      <div id='brandinfo' className='grid grid-flow-row auto-rows-max md:grid-cols-2 h-auto w-auto bg-primary-off-white'>
         <div className="md:bg-transformdesktop aspect-[6/5] bg-no-repeat bg-cover bg-transformmobile bg-center place-self-stretch"></div>
         <div className="text-center grid place-self-center my-16 mx-8 md:ml-32 md:mr-16 md:my-12 md:text-left md:col-start-1 md:row-start-1">
           <h2 className="font-fraunces font-black text-black/80 text-4xl md:text-responsive">Transform your brand</h2>
@@ -46,9 +46,9 @@ const Main = () => {
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section id='ratings' className='h-auto bg-primary-off-white flex flex-col items-center py-20 md:py-60 md:px-44 space-y-14 md:space-y-20 '>
+      <div id='ratings' className='h-auto bg-primary-off-white flex flex-col items-center py-20 md:py-60 md:px-44 space-y-14 md:space-y-20 '>
         <h2 className="font-fraunces font-black text-lg md:text-xl text-neutral-grayish-blue md:tracking-[0.5rem] tracking-[0.3rem]">CLIENT TESTIMONIALS</h2>
         <div className="cards flex flex-col md:flex-row space-y-20 md:space-x-2 md:space-y-0">
           <article className="flex flex-col justify-center text-center">
@@ -90,14 +90,14 @@ const Main = () => {
 
 
         </div>
-      </section>
+      </div>
 
-      <section id='gallary' className='grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1'>
+      <div id='gallary' className='grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1'>
         <div className=" bg-milkbottlesmobile md:bg-milkbottledesktop aspect-square bg-center bg-cover place-self-stretch"/>
         <div className=" bg-orangemobile md:bg-orangedesktop aspect-square bg-center bg-cover place-self-stretch"/>
         <div className=" bg-conemobile md:bg-conedesktop aspect-square bg-center bg-cover place-self-stretch"/>
         <div className=" bg-sugarcubemobile md:bg-sugarcubedesktop aspect-square bg-center bg-cover place-self-stretch"/>
-      </section>
+      </div>
     </main>
   )
 }
