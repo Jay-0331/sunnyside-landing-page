@@ -9,7 +9,7 @@ const Main = () => {
       <section id='brandinfo' className='grid grid-flow-row auto-rows-max md:grid-cols-2 h-auto w-auto bg-primary-off-white'>
         <div className="md:bg-transformdesktop aspect-[6/5] bg-no-repeat bg-cover bg-transformmobile bg-center place-self-stretch"></div>
         <div className="text-center grid place-self-center my-16 mx-8 md:ml-32 md:mr-16 md:my-12 md:text-left md:col-start-1 md:row-start-1">
-          <h1 className="font-fraunces font-black text-black/80 text-4xl md:text-responsive">Transform your brand</h1>
+          <h2 className="font-fraunces font-black text-black/80 text-4xl md:text-responsive">Transform your brand</h2>
           <p className="font-barlow py-6 md:py-8 text-black/50 text-paragraph">
             We are a full-service creative agency specializing in helping brands grow fast. 
             Engage your clients through compelling visuals that do most of the marketing for you.
@@ -21,7 +21,7 @@ const Main = () => {
         </div>
         <div className='bg-standoutmobile md:bg-standoutdesktop aspect-[6/5] bg-no-repeat bg-cover bg-center place-self-stretch'></div>
         <div className="text-center grid place-self-center my-16 mx-8 md:mr-32 md:ml-16 md:my-12 md:text-left">
-          <h1 className="font-fraunces font-black text-black/80 text-4xl md:text-responsive">Stand out to the right audience</h1>
+          <h2 className="font-fraunces font-black text-black/80 text-4xl md:text-responsive">Stand out to the right audience</h2>
           <p className="font-barlow py-6 md:py-8 text-black/50 text-paragraph">
             Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
           </p>
@@ -32,7 +32,7 @@ const Main = () => {
         </div>
         <div className="grid bg-graphicdesignmobile md:bg-graphicdesigndesktop aspect-[5/8] md:aspect-[6/5] bg-cover bg-no-repeat bg-center place-self-stretch">
           <div className='text-center mx-8 mb-12 xl:mx-28 md:mx-6 place-self-end'>
-            <h1 className="font-fraunces font-black text-primary-dark-desaturated-cyan text-4xl md:text-headingsmall">Graphic design</h1>
+            <h2 className="font-fraunces font-black text-primary-dark-desaturated-cyan text-4xl md:text-headingsmall">Graphic design</h2>
             <p className="font-barlow pt-4 xl:px-12 md:px-0 tracking-tighter text-primary-dark-desaturated-cyan text-paragraph">
               Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
             </p>
@@ -40,7 +40,7 @@ const Main = () => {
         </div>
         <div className="grid bg-photographymobile md:bg-photographydesktop aspect-[5/8] md:aspect-[6/5] bg-cover bg-no-repeat bg-center place-self-stretch">
           <div className='text-center mx-8 mb-12 xl:mx-28 md:mx-6 place-self-end'>
-            <h1 className="font-fraunces font-black text-primary-dark-blue text-4xl md:text-headingsmall">Photography</h1>
+            <h2 className="font-fraunces font-black text-primary-dark-blue text-4xl md:text-headingsmall">Photography</h2>
             <p className="font-barlow pt-4 xl:px-12 md:px-0 tracking-tighter text-primary-dark-blue text-paragraph">
               Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
             </p>
@@ -49,7 +49,7 @@ const Main = () => {
       </section>
 
       <section id='ratings' className='h-auto bg-primary-off-white flex flex-col items-center py-20 md:py-60 md:px-44 space-y-14 md:space-y-20 '>
-        <h1 className="font-fraunces font-black text-lg md:text-xl text-neutral-grayish-blue md:tracking-[0.5rem] tracking-[0.3rem]">CLIENT TESTIMONIALS</h1>
+        <h2 className="font-fraunces font-black text-lg md:text-xl text-neutral-grayish-blue md:tracking-[0.5rem] tracking-[0.3rem]">CLIENT TESTIMONIALS</h2>
         <div className="cards flex flex-col md:flex-row space-y-20 md:space-x-2 md:space-y-0">
           <article className="flex flex-col justify-center text-center">
             <img src={emily} alt="user dp" className="rounded-full h-20 w-20 self-center" />
