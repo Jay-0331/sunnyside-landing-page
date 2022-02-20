@@ -25,8 +25,8 @@ const Navbar = () => {
                 </div>
                 <div className="hidden md:flex space-x-10 items-center text-lg text-neutral-white">
                     <a href='#brandinfo' className="font-barlow text-opacity-70 hover:text-black transition duration-500">About</a>
-                    <a href='#service' className="font-barlow text-opacity-70 hover:text-black transition duration-500" >Services</a> 
-                    <a href='#gallary' className="font-barlow text-opacity-70 hover:text-black transition duration-500" >Projects</a>
+                    <a href='#gallary' className="font-barlow text-opacity-70 hover:text-black transition duration-500" >Services</a> 
+                    <a href='#service' className="font-barlow text-opacity-70 hover:text-black transition duration-500" >Projects</a>
                     <button className="font-fraunces bg-white text-black py-4 px-8 rounded-full hover:bg-opacity-30 hover:text-white transition-all duration-500" aria-label='contact button'>CONTACT</button>
                 </div>
                 <div className="md:hidden flex items-center">
@@ -39,9 +39,9 @@ const Navbar = () => {
             <div className={`md:hidden ${ isEnabled ? '' : 'hidden'}`}>
                 <div className="clip h-8 bg-white mx-6"/>
                 <div className="flex flex-col items-center text-neutral-dark-grayish-blue bg-white mx-6 space-y-6 py-12 text-xl">
-                    <a href='/' className="font-barlow hover:text-black transition duration-500" >About</a>
-                    <a href='/' className="font-barlow hover:text-black transition duration-500" >Services</a> 
-                    <a href='/' className="font-barlow hover:text-black transition duration-500" >Projects</a>
+                    <a href='#brandinfo' className="font-barlow hover:text-black transition duration-500" >About</a>
+                    <a href='#gallary' className="font-barlow hover:text-black transition duration-500" >Projects</a>
+                    <a href='#service' className="font-barlow hover:text-black transition duration-500" >Services</a> 
                     <button className="font-fraunces bg-primary-yellow text-lg text-black py-4 px-8 rounded-full hover:bg-opacity-50 transition-all duration-500" aria-label='contact button'>CONTACT</button>
                 </div>
             </div>
