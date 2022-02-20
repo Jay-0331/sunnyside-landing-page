@@ -11,8 +11,8 @@ const Footer = () => {
             </svg>
         </div>
         <div className="flex w-full justify-center space-x-16 mt-8 mb-20">
-          <a href="header" className="hover:text-white transition duration-500 font-barlow font-semibold opacity-80 tracking-tight text-lg">About</a>
-          <a href="header" className="hover:text-white transition duration-500 font-barlow font-semibold opacity-80 tracking-tight text-lg">Services</a>
+          <a href="#brandinfo" className="hover:text-white transition duration-500 font-barlow font-semibold opacity-80 tracking-tight text-lg">About</a>
+          <a href="#service" className="hover:text-white transition duration-500 font-barlow font-semibold opacity-80 tracking-tight text-lg">Services</a>
           <a href="header" className="hover:text-white transition duration-500 font-barlow font-semibold opacity-80 tracking-tight text-lg">Projects</a>
         </div>
         <div className='flex w-full space-x-7 justify-center'>
